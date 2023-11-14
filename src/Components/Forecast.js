@@ -50,6 +50,7 @@ function Forecast({ forecastData }) {
                 <p>{`${day.main.temp_max}/${day.main.temp_min} °C`}</p>
                 <br />
                 <p>{day.weather[0].description}</p>
+                <p>{day.weather[0].description}</p>
                 <br />
               </div>
             ))}
